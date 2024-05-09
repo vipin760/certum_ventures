@@ -7,5 +7,5 @@ const appointmentSchema =new mongoose.Schema({
     end_time:{type:Date,required:true}
 })
 
-const Appointment = mongoose.model("Appoinment",appointmentSchema)
+const Appointment = mongoose.model("Appointment",appointmentSchema)
 module.exports = Appointment
